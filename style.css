@@ -1,0 +1,84 @@
+body{
+    background-image: url(img/fondos.jpg);
+}
+.navbar{
+    background-color: pink;
+    text-decoration:overline;
+    font-size: 30px;
+    font-weight: 200;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    
+}   
+.d-flex{
+    font-size: 20px;
+    color: black;
+}
+
+.busc{
+    display: block;
+    
+}
+.tit{
+    display: contents;
+    
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+}
+.titulo h1{
+    text-decoration:overline;
+    font-weight:bold;
+    font-weight: 100;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+padding: 40px;
+}
+#contenedor{
+display: inline-block;
+
+}
+.tarjetas{ 
+    width: 300px;
+    height: 300px;
+    border: solid 2px;
+    margin: 3px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    background-color: pink;
+}
+h3{
+   padding: 10px;
+   font-family:'Times New Roman', Times, serif;
+}
+h2{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ img{
+    width: 90px;
+    height: 80px;
+ }
+
+ #miCarrito{
+    width: 500px;
+    min-height: 200px;
+    border: solid 2px;
+    background-color: white;
+ }
+
+#comprar{
+display: flex;
+font-size: x-large;
+}
