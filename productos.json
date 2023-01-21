@@ -1,0 +1,15 @@
+[
+    {"id": 1, "categoria": "maquillaje", "nombre": "Labial Rose", "precio": 3500, "imgUrl":"./img/rojos.jpg"},
+    {"id": 2, "categoria": "maquillaje", "nombre": "Labial Violet", "precio": 2500, "imgUrl":"./img/rojos.jpg"},
+    {"id": 3, "categoria": "maquillaje", "nombre": "Labial Nude", "precio": 3000, "imgUrl":"./img/rojos.jpg"},
+    {"id": 4, "categoria": "maquillaje", "nombre": "Labial Choco", "precio": 2000, "imgUrl":"./img/rojos.jpg"},
+    {"id": 5, "categoria": "maquillaje", "nombre": "Labial Rubi", "precio": 3500, "imgUrl":"./img/rojos.jpg"},
+    {"id": 6, "categoria": "maquillaje", "nombre": "Labial Gloss", "precio": 2000,"imgUrl":"./img/rojos.jpg"},
+    {"id": 7, "categoria": "maquillaje", "nombre": "Paleta Verano", "precio": 4500, "imgUrl":"./img/verano.jpg"},
+    {"id": 8, "categoria": "maquillaje", "nombre": "Paleta Completa", "precio": 6000, "imgUrl":"./img/completa.jpg"},
+    {"id": 9, "categoria": "accesorios", "nombre": "Cartera Negra", "precio": 7000, "imgUrl":"./img/negra.jpg"},
+    {"id": 10,"categoria": "accesorios","nombre": "Cartera Sobre", "precio": 6000, "imgUrl":"./img/sobre.jpg"},
+    {"id": 11,"categoria": "maquillaje","nombre": "Paleta Invierno", "precio": 4000, "imgUrl":"./img/invierno.jpg"},
+    {"id": 12,"categoria": "accesorios","nombre": "Cartera Roja", "precio": 5500, "imgUrl":"./img/cartera.jpg"}
+    
+]

@@ -1,34 +1,85 @@
 body{
-    background-image: url(img/fondos.jpg);
+   width: 100%;
+   height: 100%;
+   padding: 20px;
 }
-.navbar{
-    background-color: pink;
-    text-decoration:overline;
-    font-size: 30px;
-    font-weight: 200;
-    font-family:'Courier New', Courier, monospace;
-    color: black;
-    
-}   
+
+nav{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    background-color: black;
+    position:sticky;
+}
+.logo{
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul li{
+    display:inline-flex;
+    justify-content: center;
+    padding: 3px;
+    margin: 15px;
+    list-style-type: none;
+}
+.a{
+   color: white;
+   font-size: 25px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .d-flex{
     font-size: 20px;
     color: black;
 }
 
-.busc{
-    display: block;
-    
+
+.bus{
+margin-top: 150px;
+padding: 80px;
+display: flex;
+}
+.bus p{
+    margin:  5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+.bu{
+    width: 300px;
+}
+.ico{
+    color: black;
 }
 .tit{
     display: contents;
-    
 }
+.mai{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.di-titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    transform: translateY (-500px);
+    animation-name: entrada;
+    animation-duration:2s;
+    animation-timing-function: ease-in-out;
+}
+
 .titulo{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    padding: 10px;
-    background-color: pink;
+    font-size: 300px;
+   font-weight: 200;
 }
 .titulo h1{
     text-decoration:overline;
@@ -40,45 +91,120 @@ body{
 header{
 display: flex;
 flex-direction: column;
-text-align: center;
 justify-content: center;
-padding: 40px;
+padding: 50px;
+}
+
+.tit-dos{
+    display: flex;
+    justify-content: flex-start;
+    width: 50px;
+    height: 90px;
+    padding: 40px;
+
+    transform: translateY (-500px);
+    animation-name: entrada;
+    animation-duration:2s;
+    animation-timing-function: ease-in-out;
+}
+.dos{
+   font-size: 80px;
+   padding: 40px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #contenedor{
 display: inline-block;
-
+margin-top: 300px;
 }
+
 .tarjetas{ 
     width: 300px;
-    height: 300px;
-    border: solid 2px;
-    margin: 3px;
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
     display: inline-block;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    align-items: center;
-    background-color: pink;
+    background-color:rgb(237, 235, 235);
 }
-h3{
-   padding: 10px;
-   font-family:'Times New Roman', Times, serif;
+.labial{
+   display:flex;
+   flex-direction: initial;
+   font-size: 30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-h2{
-    padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
+.labial-dos{
+    display:flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
  img{
-    width: 90px;
-    height: 80px;
+    margin:10px;
+    width: 150px;
+    height: 210px;
  }
 
  #miCarrito{
-    width: 500px;
-    min-height: 200px;
-    border: solid 2px;
-    background-color: white;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    border-collapse: separate;
+    border-radius: 5px;
+    padding: 10px;
  }
+.listaCarrito{
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+   margin:5px;
+   border: solid 1px;
+   background-color: rgb(239, 238, 238);
+}
+
+.p-carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
 
 #comprar{
-display: flex;
-font-size: x-large;
+border: 1px solid rgb(255, 254, 254);
+margin: 0 -1px 24px 0;
+}
+
+.boton{
+    border: solid 1px rgb(218, 216, 216) ;
+    background-color: rgb(251, 251, 251);
+    font-weight:lighter;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    
+}
+.p-fo{
+    color: rgb(255, 255, 255);
+    font-size: 20;
+    font-weight: 100;
+    padding: 30px;
+    
+}
+
+
+@keyframes entrada {
+    0%{
+        transform: translateY(-500px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
 }
